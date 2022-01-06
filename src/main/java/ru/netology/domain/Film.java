@@ -1,8 +1,10 @@
 package ru.netology.domain;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 @AllArgsConstructor
+@Getter
 
 public class Film {
     int id;
@@ -11,3 +13,4 @@ public class Film {
     String filmGenre;
     boolean premiereTomorrow;
 }
+
